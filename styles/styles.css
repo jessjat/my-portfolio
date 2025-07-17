@@ -40,6 +40,33 @@ p{
     font-size: 20px;
     line-height: 2;
 }
+.content-container{
+    padding: 120px 60px;
+    
+}
+
+.content h1{
+    font-size:64px ;
+    line-height: 1.5;
+}
+.content h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.content h3{
+ font-size: 24px;
+ font-family: var(--default-font-family);
+ line-height: 1.5;
+  }
+.content p{
+   font-size: 14px; 
+}
+.content-container img{
+    border-radius: 10px;
+}
+.content{
+    margin: 30px;
+}
 .btn-branding{
     background:var(--branding-color);
     border-radius: 4px;
@@ -60,6 +87,26 @@ p{
     padding: 120px 60px;
 
 }
+nav{
+    padding: 20px 0;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    line-height:42px;
+    margin-left:10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a{
+    color: var(--branding-color);
+}
+
+
 @media(max-width:900px){
     h1{
         font-size: 60px;
@@ -70,8 +117,15 @@ p{
     .hero{
       padding: 80px 20px;  
     }
+    .content{
+        text-align: center;
+        padding: 0;
+    }
     .project-description{
         padding: 0;
         text-align: center;
+    }
+    nav a{
+        font-size: 14px;
     }
 }
