@@ -142,7 +142,11 @@ footer .social-links a:hover{
  }
  footer .contact-box p{
     margin: 0;
- }   
+ }
+ 
+.form-control:focus{
+    border: 2px solid var(--secondary-color);
+}   
 
 @media(max-width:900px){
     h1{
@@ -157,7 +161,7 @@ footer .social-links a:hover{
     .content{
         text-align: center;
         padding: 0;
-    }
+         }
     .project-description{
         padding: 0;
         text-align: center;
@@ -165,5 +169,5 @@ footer .social-links a:hover{
     nav a{
         font-size: 14px;
     }
-   
+    
 }
